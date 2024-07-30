@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Sound Matching through Wavetable Synthesizer</title>
+    <title>Wavetable 신디사이저에서의 Synthesizer Parameter Estimation</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -39,6 +39,10 @@
           소리가 훈련 데이터로 사용되었으며, 따라서 모든 배음들의 크기가 0.5인 소리와 같은 특수한 
           경우에도 올바른 예측이 가능하며, 테스트할 소리의 전체 음량은 각 배음이 훈련된 음량 범위 
           내에 들어가도록 조절된다.</p>
+        
+        <p>테스트 모델에서 선택된 14개의 신디사이저 파라미터는 Oscillator unison voices, unison 
+          detune, phase randomization, Amp Envelope ADSR, Filter Envelope attack, hold, decay, 
+          Filter cutoff, resonance, drive이다.</p>
 
         <h2>Audio Examples</h2>
 
